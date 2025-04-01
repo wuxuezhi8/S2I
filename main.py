@@ -13,7 +13,7 @@ import torch
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Search to Pass Messages for Temporal Knowledge Completion")
+    parser = argparse.ArgumentParser(description="Search to Integrate Multi-level Heuristics with Graph Neural Networks for Multi-relational Link Prediction")
     parser.add_argument("--dataset", type=str, default="WN18RR")
     parser.add_argument('--num_workers', type=int, default=4,
                         help='Number of processes to construct batches')
