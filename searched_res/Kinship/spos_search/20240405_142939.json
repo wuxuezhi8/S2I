@@ -1,0 +1,1 @@
+[{"seed": 22, "dataset": "Kinship", "search_mode": "spos_search", "genotype": "compgcn_add||lc_concat||compgcn_sub||lf_concat||degree_na_na_betw_na||node_sum||cn_na_na_na"}]

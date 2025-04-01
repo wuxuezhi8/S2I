@@ -1,0 +1,1 @@
+[{"seed": 1234, "dataset": "FB15k-237", "search_mode": "spos_search", "genotype": "compgcn_corr||lc_sum||compgcn_mult||lc_sum||compgcn_mult||lf_concat||na_eigen_pgrank_na_katz||node_sum||na_jaccard_ra_na"}]

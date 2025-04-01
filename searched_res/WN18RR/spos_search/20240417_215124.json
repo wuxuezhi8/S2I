@@ -1,0 +1,1 @@
+[{"seed": 22, "dataset": "WN18RR", "search_mode": "spos_search", "genotype": "compgcn_mult||lc_skip||compgcn_mult||lf_skip||na_na_na_betw_na||node_sum||cn_na_na_na"}]

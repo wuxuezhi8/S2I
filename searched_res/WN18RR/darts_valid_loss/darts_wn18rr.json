@@ -1,0 +1,1 @@
+[{"seed": 22, "dataset": "WN18RR", "search_mode": "darts_valid_loss", "genotype": "compgcn_sub||lc_skip||compgcn_rotate||lc_skip||compgcn_mult||lf_concat||na_na_na_na_katz||node_sum||na_jaccard_na_aa"}]

@@ -1,0 +1,1 @@
+[{"seed": 22, "dataset": "UMLS", "search_mode": "spos_search", "genotype": "compgcn_add||lc_concat||compgcn_add||lf_mean||degree_eigen_pgrank_betw_katz||node_sum||cn_jaccard_ra_aa"}]
