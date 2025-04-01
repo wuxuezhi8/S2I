@@ -6,9 +6,6 @@
 
 ---
 
-## Overview
-This repository contains the code for [Search to Pass Messages for Temporal Knowledge Graph Completion](https://preview.aclanthology.org/emnlp-22-ingestion/2022.findings-emnlp.458/) in Findings of EMNLP 2022.
-
 ## Requirements
 ```text
 python=3.8
@@ -23,18 +20,15 @@ dgl+cu111==0.6.1
 # Random baseline
 python main.py --train_mode search --search_mode random --encoder SPATune --max_epoch 200
 
-CUDA_VISIBLE_DEVICES=1 
-
-# SPA supernet training
+# supernet training
 python main.py --train_mode search --search_mode spos --encoder SPASPOSSearch --search_max_epoch 1000
 
-# SPA architecture search
+# architecture search
 python main.py --train_mode search --search_mode spos_search --encoder SPASPOSSearch --arch_sample_num 1000 --weight_path <xx.pt>
 ```
-### Fine-tuning process
+# Fine-tuning process
 ```shell
 python main.py --train_mode tune --encoder SPATune --search_res_file <xxx.json>
 ```
 ## Acknowledgement
-
-The codes of this paper are partially based on the codes of [SANE](https://github.com/AutoML-Research/SANE) and [SPA](https://github.com/JiapengWu/TeMP). We thank the authors of above work.
+The codes of this paper are partially based on the codes of [SANE](https://github.com/AutoML-Research/SANE) and [SPA](https://github.com/striderdu/SPA). We thank the authors of above work.
