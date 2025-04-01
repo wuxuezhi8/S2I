@@ -35,23 +35,6 @@ python main.py --train_mode search --search_mode spos_search --encoder SPASPOSSe
 ```shell
 python main.py --train_mode tune --encoder SPATune --search_res_file <xxx.json>
 ```
-## Citation
-
-Readers are welcomed to fork this repository to reproduce the experiments and follow our work. Please kindly cite our paper
-
-```bibtex
-@inproceedings{wang2022search,
-    title={Search to Pass Messages for Temporal Knowledge Graph Completion},
-    author={Wang, Zhen and Du, Haotong and Yao, Quanming and Li, Xuelong},
-    booktitle={Findings of the Association for Computational Linguistics: EMNLP 2022},
-    pages={6160--6172},
-    year={2022}
-}
-```
-
-## Contact
-If you have any questions, feel free to contact me at [duhaotong@mail.nwpu.edu.cn](mailto:duhaotong@mail.nwpu.edu.cn).
-
 ## Acknowledgement
 
-The codes of this paper are partially based on the codes of [SANE](https://github.com/AutoML-Research/SANE) and [TeMP](https://github.com/JiapengWu/TeMP). We thank the authors of above work.
+The codes of this paper are partially based on the codes of [SANE](https://github.com/AutoML-Research/SANE) and [SPA](https://github.com/JiapengWu/TeMP). We thank the authors of above work.
