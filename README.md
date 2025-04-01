@@ -1,11 +1,5 @@
 # Search to Pass Messages for Temporal Knowledge Graph Completion
-<p align="center">
-<a href="https://preview.aclanthology.org/emnlp-22-ingestion/2022.findings-emnlp.458/"><img src="https://img.shields.io/badge/EMNLP%202022-Findings-brightgreen.svg" alt="emnlp paper"></a>
-<a href="https://arxiv.org/abs/2210.16740"><img src="http://img.shields.io/badge/arxiv-abs-green.svg" alt="arxiv"></a>
-</p>
-
 ---
-
 ## Requirements
 ```text
 python=3.8
