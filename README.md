@@ -1,5 +1,4 @@
-# Search to Integrate Multi-level Heuristics with Graph Neural Networks
-for Multi-relational Link Prediction
+# Search to Integrate Multi-level Heuristics with Graph Neural Networks for Multi-relational Link Prediction
 ---
 ## Requirements
 ```text
