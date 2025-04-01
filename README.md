@@ -26,7 +26,7 @@ python main.py --train_mode search --search_mode spos --encoder SPASPOSSearch --
 # architecture search
 python main.py --train_mode search --search_mode spos_search --encoder SPASPOSSearch --arch_sample_num 1000 --weight_path <xx.pt>
 ```
-# Fine-tuning process
+### Fine-tuning process
 ```shell
 python main.py --train_mode tune --encoder SPATune --search_res_file <xxx.json>
 ```
