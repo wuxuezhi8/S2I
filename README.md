@@ -1,4 +1,5 @@
-# Search to Pass Messages for Temporal Knowledge Graph Completion
+# Search to Integrate Multi-level Heuristics with Graph Neural Networks
+for Multi-relational Link Prediction
 ---
 ## Requirements
 ```text
